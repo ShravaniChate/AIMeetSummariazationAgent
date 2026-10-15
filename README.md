@@ -22,5 +22,3 @@ Python, Whisper, Sarvam AI, LangChain (LCEL), Google Gemini, ChromaDB, HuggingFa
 3. The transcript is summarized by Gemini through an LCEL chain.
 4. The transcript is split into overlapping chunks, embedded, and stored in ChromaDB.
 5. Chat questions retrieve the 4 most relevant chunks, which Gemini uses to answer.
-
-## Project Structure
